@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>GroupName</key>
+    <string>admin</string>
+
+    <key>Label</key>
+    <string>boot.unionfs</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <!-- 修改为绝对路径 -->
+        <string>/Users/purp1e/nas/unionfs/boot.sh</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>

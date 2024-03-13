@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  test:
+    image: docker/getting-started
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ~/nas/data/test:/data
+      - ~/nas/pool/share:/share

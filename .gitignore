@@ -1,0 +1,7 @@
+
+.vscode
+data/*
+pool/*
+**/log/
+**/logs/
+**.DS_Store
