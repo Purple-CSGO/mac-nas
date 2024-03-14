@@ -5,3 +5,5 @@ pool/*
 **/log/
 **/logs/
 **.DS_Store
+docker/*
+!docker/test
